@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>August Mainz | Premium Demo</title>
+    <meta
+      name="description"
+      content="August bar in Mainz: besondere Bar-Atmosphäre, flexible Speisen-Bestellung, Drinks, Events und Reservierung."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Hauptnavigation">
+        <a href="#top" class="brand" aria-label="August Startseite">
+          <span class="brand-main">August</span>
+          <span class="brand-sub">bar | Mainz</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Menü öffnen</span>
+        </button>
+
+        <div class="nav-links" id="desktopNav">
+          <a href="#about">Über uns</a>
+          <a href="#signature">Highlights</a>
+          <a href="#menu">Getränkekarte</a>
+          <a href="#gallery">Galerie</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+
+        <a class="btn btn-primary nav-cta" href="#reservation">Tisch reservieren</a>
+      </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">Über uns</a>
+        <a href="#signature">Highlights</a>
+        <a href="#menu">Getränkekarte</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Kontakt</a>
+        <a class="btn btn-primary" href="#reservation">Tisch reservieren</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <img
+          class="hero-image"
+          src="https://cdn.website.dish.co/media/20/00/7286440/august-IMG-2279-JPG.jpg"
+          alt="Innenbereich der August bar in Mainz"
+          loading="eager"
+          fetchpriority="high"
+        />
+
+        <div class="hero-content container reveal">
+          <p class="eyebrow">August bar | Leichhof 14 | Mainz</p>
+          <h1>Abende mit Charakter, Drinks mit Handschrift.</h1>
+          <p>
+            Mitten in Mainz erwartet euch eine entspannte Bar-Atmosphäre: trinken, gemeinsam genießen und
+            Speisen flexibel aus umliegenden Restaurants oder direkt selbst mitgebracht erleben.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#reservation">Tisch reservieren</a>
+            <a class="btn btn-secondary" href="#menu">Speisekarte entdecken</a>
+          </div>
+          <div class="hero-trust">
+            <span>4.4/5 Bewertung</span>
+            <span>Mittwoch bis Samstag geöffnet</span>
+            <span>Kostenloses WLAN</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro container reveal" id="about">
+        <div>
+          <p class="eyebrow">Willkommen im August Mainz</p>
+          <h2>Unkompliziertes Konzept. Hochwertiger Abend.</h2>
+        </div>
+        <p>
+          Ob auf ein paar Drinks mit Freunden, zum Fußball schauen oder für einen geselligen Abend in Mainz:
+          Im August genießt ihr moderne Bar-Kultur ohne steife Regeln. Speisekarten aus umliegenden Restaurants
+          liegen aus und ihr könnt genauso unkompliziert eigene Speisen mitbringen.
+        </p>
+      </section>
+
+      <section class="signature" id="signature">
+        <div class="container signature-grid">
+          <article class="signature-card reveal">
+            <img
+              src="https://cdn.website.dish.co/media/d2/e6/7286394/august-4-JPG.jpg"
+              alt="Drinks an der Bar"
+              loading="lazy"
+            />
+            <div>
+              <h3>Signature Moment: Afterwork & Weekend</h3>
+              <p>
+                Von entspannt bis lebendig: Das August schafft den Rahmen für Abende, die in Erinnerung bleiben.
+              </p>
+            </div>
+          </article>
+          <article class="signature-card reveal delay-1">
+            <img
+              src="https://cdn.website.dish.co/media/65/f2/7200298/august-lizenzfreiBurger-11-jpg.jpg"
+              alt="Burger aus der Umgebung passend zum August-Konzept"
+              loading="lazy"
+            />
+            <div>
+              <h3>Flexibel genießen</h3>
+              <p>
+                Speisen von umliegenden Restaurants bestellen oder selbst mitbringen und direkt vor Ort genießen.
+              </p>
+            </div>
+          </article>
+          <article class="signature-card reveal delay-2">
+            <img
+              src="https://cdn.website.dish.co/media/6c/17/7287015/august-IMG-2280-JPG.jpg"
+              alt="Atmosphäre im Gewölbekeller"
+              loading="lazy"
+            />
+            <div>
+              <h3>Für Gruppen und besondere Abende</h3>
+              <p>
+                Ideal für private Veranstaltungen mit entspannter, geselliger Atmosphäre im Herzen von Mainz.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="story container reveal">
+        <div class="story-text">
+          <p class="eyebrow">Philosophie</p>
+          <h2>Gastfreundschaft, die sich leicht anfühlt.</h2>
+          <p>
+            Das August wurde als moderner Treffpunkt gedacht: kreativ in der Auswahl, offen im Konzept und herzlich
+            im Service. Seit der Eröffnung am 31.10.2023 ist die Bar ein fester Anlaufpunkt für entspannte Abende
+            in Mainz.
+          </p>
+          <ul class="service-list">
+            <li>Außenbereich</li>
+            <li>Private Veranstaltungen</li>
+            <li>Essen zum Mitnehmen</li>
+            <li>Kostenloses WLAN</li>
+          </ul>
+        </div>
+        <div class="story-image-wrap">
+          <img
+            src="https://cdn.website.dish.co/media/70/d4/7643697/IMG-4890-jpeg.jpg"
+            alt="Teamfoto in der August bar"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <p class="eyebrow reveal">Impressionen</p>
+          <h2 class="reveal">Bilder, die Lust auf den nächsten Besuch machen.</h2>
+          <div class="gallery-grid">
+            <img class="reveal" src="https://cdn.website.dish.co/media/c3/13/7286442/august-IMG-2279-JPG.jpg" alt="Restaurantbereich" loading="lazy" />
+            <img class="reveal delay-1 team-men" src="https://cdn.website.dish.co/media/88/14/7643668/IMG-4881-jpeg.jpg" alt="Inhaber und Team" loading="lazy" />
+            <img class="reveal delay-2" src="https://cdn.website.dish.co/media/04/c6/7643701/IMG-4883-jpeg.jpg" alt="Eingangsbereich" loading="lazy" />
+            <img class="reveal" src="https://cdn.website.dish.co/media/e4/d3/7200299/august-lizenzfreiBurger-11-jpg.jpg" alt="Burger-Highlight" loading="lazy" />
+            <img class="reveal delay-1" src="https://cdn.website.dish.co/media/de/46/7286422/august-9-JPG.jpg" alt="Bar Ambiente" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="menu container" id="menu">
+        <div class="menu-head reveal">
+          <p class="eyebrow">Speisekarte</p>
+          <h2>Getränke & Genuss ohne Umwege.</h2>
+        </div>
+
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menü Kategorien">
+          <button class="tab active" role="tab" aria-selected="true" aria-controls="pane-drinks" data-tab="drinks">
+            Getränkekarte
+          </button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="pane-concept" data-tab="concept">
+            Food-Konzept
+          </button>
+        </div>
+
+        <div class="menu-pane active reveal" id="pane-drinks" role="tabpanel">
+          <article class="menu-card">
+            <div>
+              <h3>Getränkekarte als PDF</h3>
+              <p>
+                Die aktuelle Getränkekarte steht direkt zum Durchblättern bereit.
+              </p>
+            </div>
+            <a
+              class="btn btn-primary"
+              href="https://cdn.website.dish.co/media/18/48/9964504/Getrankekarte.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Getränkekarte öffnen
+            </a>
+          </article>
+        </div>
+
+        <div class="menu-pane" id="pane-concept" role="tabpanel" hidden>
+          <article class="menu-card concept-card">
+            <h3>Flexibles Genusskonzept</h3>
+            <ul>
+              <li>Speisen bei umliegenden Restaurants oder Streetfood-Läden bestellen.</li>
+              <li>Ausgelegte Speisekarten helfen bei der schnellen Auswahl vor Ort.</li>
+              <li>Eigene Speisen können unkompliziert mitgebracht werden.</li>
+              <li>Bestellungen zum Mitnehmen sind ebenfalls möglich.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="reviews reveal">
+        <div class="container reviews-grid">
+          <div>
+            <p class="eyebrow">Social Proof</p>
+            <h2>Vertrauen durch echte Gästestimmen.</h2>
+            <p class="rating">4.4 / 5 <span>*****</span></p>
+            <p class="rating-note">Durchschnittliche Bewertung aus den aktuellen Rezensionen.</p>
+          </div>
+
+          <blockquote>
+            <p>"Super Service, große Auswahl an Speisen und Getränken. Immer wieder gerne."</p>
+            <footer>Jörg S. · 29.11.2023</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="reservation" id="reservation">
+        <div class="container reservation-wrap reveal">
+          <div>
+            <p class="eyebrow">Reservierung</p>
+            <h2>Ihr Tisch wartet auf Sie.</h2>
+            <p>
+              Reserviert schnell und direkt online. Für spontane Pläne erreicht ihr uns natürlich auch telefonisch.
+            </p>
+            <div class="reservation-actions">
+              <a class="btn btn-primary" href="https://reservation.dish.co/widget/hydra-5befaabf-b594-4bbb-bb3b-3a3d6cd7c9ea" target="_blank" rel="noopener noreferrer">Jetzt reservieren</a>
+              <a class="btn btn-secondary" href="tel:+4961312495379">Telefonisch reservieren</a>
+            </div>
+          </div>
+          <div class="reservation-widget" id="hors-hydra-5befaabf-b594-4bbb-bb3b-3a3d6cd7c9ea">
+            <h3>Online-Reservierung</h3>
+            <p>
+              Die Reservierung wird über DISH bereitgestellt. Mit einem Klick gelangt ihr direkt zum offiziellen
+              Buchungsformular.
+            </p>
+            <a
+              class="btn btn-primary"
+              href="https://reservation.dish.co/widget/hydra-5befaabf-b594-4bbb-bb3b-3a3d6cd7c9ea"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Reservierungsformular öffnen
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-panel reveal">
+            <p class="eyebrow">Kontakt & Standort</p>
+            <h2>Alles auf einen Blick.</h2>
+
+            <div class="contact-block">
+              <h3>Adresse</h3>
+              <p>Leichhof 14<br />55116 Mainz<br />Deutschland</p>
+            </div>
+
+            <div class="contact-block">
+              <h3>Kontakt</h3>
+              <p><a href="tel:+4961312495379">+49 6131 2495379</a></p>
+              <p><a href="mailto:augustmainz23@gmail.com">augustmainz23@gmail.com</a></p>
+              <p>
+                <a href="https://instagram.com/august_mainz?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                  Instagram
+                </a>
+              </p>
+            </div>
+
+            <div class="contact-block">
+              <h3>Öffnungszeiten</h3>
+              <ul class="times">
+                <li><span>Montag</span><span>Geschlossen</span></li>
+                <li><span>Dienstag</span><span>Geschlossen</span></li>
+                <li><span>Mittwoch</span><span>18:00 - 23:00</span></li>
+                <li><span>Donnerstag</span><span>18:00 - 23:00</span></li>
+                <li><span>Freitag</span><span>18:00 - 01:00</span></li>
+                <li><span>Samstag</span><span>12:00 - 01:00</span></li>
+                <li><span>Sonntag</span><span>Geschlossen</span></li>
+              </ul>
+            </div>
+
+            <div class="contact-block">
+              <h3>Zahlungsmöglichkeiten</h3>
+              <p>AMEX, Barzahlung, kontaktloses Bezahlen, MasterCard, VISA, Debitkarte, Diners Club, Apple Pay, Maestro, EC-Karte</p>
+            </div>
+          </div>
+
+          <div class="map-wrap reveal delay-1">
+            <iframe
+              title="Standort August Mainz"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Leichhof+14,+55116+Mainz,+Deutschland&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-main">August</span>
+            <span class="brand-sub">bar | Mainz</span>
+          </a>
+          <p>Eine moderne Bar für entspannte, gesellige Abende im Herzen von Mainz.</p>
+        </div>
+
+        <div>
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#menu">Getränkekarte</a></li>
+            <li><a href="#reservation">Reservierung</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Rechtliches</h3>
+          <ul>
+            <li><a href="https://website.dish.co/privacywebsite/legalNotice?id=1301085&standalone=TRUE&lang=de&modaldisplay=true" target="_blank" rel="noopener noreferrer">Impressum</a></li>
+            <li><a href="https://website.dish.co/privacywebsite/data?id=1301085&standalone=TRUE&lang=de&modaldisplay=true" target="_blank" rel="noopener noreferrer">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> August Mainz</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
